@@ -1,0 +1,35 @@
+TNOW = (datetime.datetime.now())
+TFORMAT = '{:%d-%m-%Y_%H:%M:%S}'.format(TNOW)
+print(TFORMAT)
+
+
+TNOW = (datetime.datetime.now())
+output = ("%.2i-%.2i-%.2i_%.2i:%.2i:%.2i" %(TNOW.day,TNOW.month,TNOW.year,TNOW.hour,TNOW.minute,TNOW.second))
+print (output)
+
+
+ssh-keygen -n 2048 -t rsa(press enter) then copy the directory location and append username(admin1) to it.
+
+fold -f -w 70 admin1.pub or fold -w 70
+
+ssh-keygen -f admin1.pub -l(used to verify the hash on the linux)
+
+TO CREATE VIRTUAL ENVIRONMENT
+(P3.7) root@kali:~/automation# virtualenv -p python3.7 P3.7 
+
+FOR TEXTFSM TO WORK
+export NET_TEXTFSM='/root/automation/TEXTFSM_GIT/ntc-templates/ntc_templates/templates/'
+OR
+export net_TEXTFSM='/root/automation/P3.7/TEXTFSM_GIT/ntc-templates/ntc_templates/templates/'
+
+TO EXTRACT AND INSTALL DOWNLOADED ATOM TEXT EDITOR
+dpkg -i (downloaded debian atom editor)
+
+
+FOR SCP TO WORK:
+aaa new-model
+aaa session-id common
+ip ssh version 2
+ip scp server enable
+aaa authentication login default local
+aaa authorization exec default local none

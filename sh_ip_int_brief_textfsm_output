@@ -1,0 +1,13 @@
+[{'intf': 'Ethernet0/0', 'ipaddr': 'unassigned', 'status': 'up', 'proto': 'up'}, 
+{'intf': 'Ethernet0/1', 'ipaddr': 'unassigned', 'status': 'up', 'proto': 'up'}, 
+{'intf': 'Ethernet0/2', 'ipaddr': 'unassigned', 'status': 'up', 'proto': 'up'}, 
+{'intf': 'Ethernet0/3', 'ipaddr': 'unassigned', 'status': 'up', 'proto': 'up'}, 
+{'intf': 'Loopback10', 'ipaddr': '10.10.10.10', 'status': 'administratively down', 'proto': 'down'}, 
+{'intf': 'Loopback11', 'ipaddr': '11.11.11.11', 'status': 'up', 'proto': 'up'}, 
+{'intf': 'Loopback12', 'ipaddr': 'unassigned', 'status': 'up', 'proto': 'up'}, 
+{'intf': 'Loopback100', 'ipaddr': 'unassigned', 'status': 'up', 'proto': 'up'}, 
+{'intf': 'Loopback200', 'ipaddr': '200.200.200.2', 'status': 'up', 'proto': 'up'}, 
+{'intf': 'Vlan1', 'ipaddr': '192.168.164.136', 'status': 'up', 'proto': 'up'}, 
+{'intf': 'Vlan100', 'ipaddr': '100.1.1.1', 'status': 'administratively down', 'proto': 'down'}, 
+{'intf': 'Vlan101', 'ipaddr': '101.1.1.2', 'status': 'up', 'proto': 'up'}, 
+{'intf': 'Vlan136', 'ipaddr': '136.1.1.2', 'status': 'down', 'proto': 'down'}]
